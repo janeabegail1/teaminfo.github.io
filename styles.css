@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SF Pro Display'), local('SF-Pro-Display'), url('https://path-to-your-font/SF-Pro-Display-Regular.woff2') format('woff2');
+}
+
+body {
+    font-family: 'SF Pro Display', 'Segoe UI', 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4faf98;
+    color: #333;
+}
+
+header {
+    background-color: #31b19a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.team {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+button {
+    background-color: #10a285;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #015442;
+}
+.button {
+    display: inline-block;
+    background-color: #10a285;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline from links */
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #015442;
+}
+
+footer {
+    background-color: #c5c5c5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
