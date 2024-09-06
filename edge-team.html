@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Edge Team Details</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
     <header>
         <h1>Edge Team Details</h1>
     </header>
     <main>
-        <section>
+        <a href="../index.html" class="back-btn">
+            <img src="../assets/svg/arrow-left.svg">
+        </a>
+        <section class="panel">
             <h2>About the Edge Team</h2>
-            <p>The Edge team is on a mission to centralize external data consumption, 
+            <p>
+                The Edge team is on a mission to centralize external data consumption, 
                 eliminate duplication, and enhance the overall efficiency of company's Engineering efforts. 
                 They are dedicated to building two core products - The Edge Platform and Event Management - focusing on scalability, flexibility, and high availability.
             </p>
-            <p>The Edge Platform is our flagship product, comprising a robust market data pipeline and a suite of supporting APIs exposed to the internal and future external clients. 
+            <p>
+                The Edge Platform is our flagship product, comprising a robust market data pipeline and a suite of supporting APIs exposed to the internal and future external clients. 
                 We aim to provide real-time, well-defined centralized messages to our customers, freeing them from complexities related to market data sources and formats. 
                 Edge services provide sub-millisecond latency, flexibility for downstream consumers, and event-driven updates.
             </p>
-            <p> We believe in using the best tools for the job. We support two programming languages - a fast compiled language (Rust) for critical path operations and a slower interpreted one (Python) for other tasks. 
+            <p>
+                We believe in using the best tools for the job. We support two programming languages - a fast compiled language (Rust) for critical path operations and a slower interpreted one (Python) for other tasks. 
                 We practice event-driven microservice architecture powered by Kafka, the heart of our system, it offers high availability, low latency, and message persistence. 
                 We provide gRPC APIs for various metadata, while PostgreSQL and ElasticSearch serve as our go-to databases.
             </p>
             <p> 
-                Our services are hosted on the EKS flavour of K8S. We are obsessed with observability and rely on tools such as Grafana, Kibana, and Elasticsearch for our logging monitoring and alerting needs. </p>
-            
-            
-
-            <!-- Add more detailed content here as needed -->
+                Our services are hosted on the EKS flavour of K8S. We are obsessed with observability and rely on tools such as Grafana, Kibana, and Elasticsearch for our logging monitoring and alerting needs.
+            </p>
+            <button class="button" id="join-btn" data-team="Edge Team">Join Edge Team</button>
         </section>
-        <a href="index.html">Back to Teams</a>
+    </main>
+    <script src="../assets/js/script.js"></script>
     </main>
 </body>
 </html>

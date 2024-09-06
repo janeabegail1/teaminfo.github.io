@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend team Details</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
     <header>
         <h1>Frontend Team Details</h1>
     </header>
     <main>
-        <section>
+        <a href="../index.html" class="back-btn">
+            <img src="../assets/svg/arrow-left.svg">
+        </a>
+        <section class="panel">
             <h2>About the Frontend Team</h2>
-            <p>Our Front-End team at ***** is dedicated to crafting and refining the user experience across our web and mobile platforms. 
+            <p>
+                Our Front-End team at ***** is dedicated to crafting and refining the user experience across our web and mobile platforms. 
                 Collaborating closely with the Product and back-end teams, they play a crucial role in transforming complex data, real-time events, 
                 and advanced product concepts into accessible and intuitive interfaces.
             </p>
-            <p> This team is at the forefront of interface design, responsible for the entire process from ideation to implementation. 
+            <p>
+                This team is at the forefront of interface design, responsible for the entire process from ideation to implementation. 
                 They leverage a sophisticated tech stack including React, React-Native, Next.js, Redux, TypeScript, and GraphQL to develop cutting-edge products that meet high standards of usability and performance.
             </p>
-            <p> Their focus on user-oriented design and quality is reflected in their commitment to meticulous attention to detail and iterative delivery, 
+            <p>
+                Their focus on user-oriented design and quality is reflected in their commitment to meticulous attention to detail and iterative delivery, 
                 ensuring that each update or new feature enhances the overall user experience. Through their work, the 
                 Front-End team ensures that our applications are not only functional but also engaging and responsive to the needs of our users.
             </p>
-            <p> Our services are hosted on the EKS flavor of K8S. We are obsessed with observability and rely on tools such as Grafana, Kibana, and Elasticsearch for our logging monitoring and alerting needs. </p>
-            
-            
-
-            <!-- Add more detailed content here as needed -->
+            <p>
+                Our services are hosted on the EKS flavor of K8S. We are obsessed with observability and rely on tools such as Grafana, Kibana, and Elasticsearch for our logging monitoring and alerting needs.
+            </p>
+            <button class="button" id="join-btn" data-team="Frontend Team">Join Frontend Team</button>
         </section>
-        <a href="index.html">Back to Teams</a>
+    </main>
+    <script src="../assets/js/script.js"></script>
     </main>
 </body>
 </html>
